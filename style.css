@@ -5,10 +5,23 @@ body {
 a {
     text-decoration: none;
 }
+ul,
+h1,
+h2,
+p,
+h3 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+}
 
+a {
+    text-decoration: none;
+}
 .container {
     margin: 0 auto;
-    width: 1920px;
+    width: 1620px;
 }
 
 header {
@@ -81,7 +94,7 @@ header {
 
 .description-img {
     margin-left: auto;
-    margin-right: 362px;
+
 }
 
 .description-container {
@@ -270,13 +283,13 @@ padding: 20px;
 
 .contact-list {
     list-style-type: none;
-    text-align: center;
-    margin: 100px 150px;
+    
+
 
 }
 
 .email {
-    width: 527px;
+    
 height: 348px;
 top: 2597px;
 left: 150px;
@@ -309,7 +322,7 @@ left: 150px;
 }
 
 .number {
-    width: 526px;
+    
 height: 348px;
 top: 2597px;
 left: 697px;
@@ -338,7 +351,7 @@ left: 697px;
     }
 
 .adress {
-    width: 527px;
+    
     height: 348px;
     top: 2597px;
     left: 1243px;
