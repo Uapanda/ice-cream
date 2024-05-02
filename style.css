@@ -5,6 +5,7 @@ body {
 a {
     text-decoration: none;
 }
+
 ul,
 h1,
 h2,
@@ -19,6 +20,7 @@ h3 {
 a {
     text-decoration: none;
 }
+
 .container {
     margin: 0 auto;
     width: 1620px;
@@ -42,7 +44,7 @@ header {
     display: flex;
 
     align-items: center;
-  
+
     text-align: center;
 }
 
@@ -111,7 +113,7 @@ header {
 }
 
 .description-title1 {
- 
+
     color: #FF993A;
     font-size: 16px;
     margin-top: 135px;
@@ -146,94 +148,114 @@ header {
 
 }
 
-.shop-now{
+.shop-now {
     background-color: #ffffff;
     margin: 300px;
+  display: flex;
 }
-.shop-now-list{
-    list-style-type: none;
-}
-.shop-now-item1{
-    width: 800px;
-height: 500px;
-top: 938px;
-left: 150px;
-background: #EFEFEF;
-text-align: center;
-border-radius: 10px;
 
 
 
-
-}
-.shop-now-title1{
-    width: 233px;
-height: 49px;
-
-color: #FF463A;
-font-family: "Nunito",sans-serif;
-font-size: 36px;
-font-weight: 700;
-line-height: 49.1px;
-text-align: center;
-
-}
-.shop-now-text1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23.48px;
-    text-align: left;
-    
-}
-.shop-now-link1 {
-    width: 157px;
-height: 153px;
-top: 1225px;
-left: 220px;
-padding: 15px 30px 15px 30px;
-gap: 10px;
-border-radius: 5px ;
-border: px ;
-opacity: 0px;
-
-}
 .shop-now-item{
     width: 800px;
-height: 500px;
+    height: 500px;
+    top: 938px;
+    left: 150px;
+    background: #EFEFEF;
+    text-align: center;
+    border-radius: 10px;
+display: flex;
+padding-left: 30px;
 
-background: #EFEFEF;
-text-align: center;
-border-radius: 10px;
-  }
-  .shop-now-title{
-    width: 233px;
-height: 49px;
 
-color: #FF463A;
-font-family: "Nunito",sans-serif;
-font-size: 36px;
-font-weight: 700;
-line-height: 49.1px;
-text-align: center;
 
 }
-.shop-now-text{
+.shop-now-container{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.shop-now-title {
+    width: 233px;
+    height: 49px;
+
+    color: #FF463A;
+    font-family: "Nunito", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49.1px;
+    text-align: center;
+
+}
+
+.shop-now-text {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.48px;
     text-align: left;
-    
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.shop-now-link {
+    width: 157px;
+    height: 153px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    opacity: 0px;
+    color: #000;
+
+}
+
+.shop-now-item {
+    width: 800px;
+    height: 500px;
+align-items: center;
+    background: #EFEFEF;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.shop-now-title {
+    width: 233px;
+    height: 49px;
+
+    color: #FF463A;
+    font-family: "Nunito", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49.1px;
+    text-align: center;
+
+}
+
+.shop-now-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    text-align: left;
+
+}
+.shop-now-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 .flavors {
     background-color: rgba(255, 228, 204, 1);
-border-color: #000;
-border: 10px;
+    border-color: #000;
+    border: 10px;
+    padding-bottom: 50px;
 }
 
-.flavors-img {
-padding: 20px;
+.shop-now-wrapper{
+    display: inline-block;
+    
+    
 }
 
 
@@ -246,7 +268,7 @@ padding: 20px;
     text-align: center;
     font-family: 'Nunito', sans-serif;
     color: rgba(255, 70, 58, 1);
-
+padding-bottom: 30px;
 }
 
 .flavors-text {
@@ -255,26 +277,23 @@ padding: 20px;
     font-weight: 400;
     line-height: 23.48px;
     text-align: center;
-
+padding-bottom: 40px;
 
 }
-.flavors-list{
+
+.flavors-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-    list-style: none;
 
-    
-    list-style: none;
-}
-.flavors-list ,.flavors-items {
-    flex: 0 0 calc(25% - 20px);
-    margin: 10px;
+
+
+
+    gap: 20px;
+
 }
 
-.flavors-container{
-    padding: 68px 150px 100px 150px;
+
+.flavors-container {
 }
 
 
@@ -283,16 +302,17 @@ padding: 20px;
 
 .contact-list {
     list-style-type: none;
-    
+padding: 40px 0px;
 
-
+align-items: center;
+justify-content: center;
 }
 
 .email {
-    
-height: 348px;
-top: 2597px;
-left: 150px;
+padding:30px 167px ;
+    height: 348px;
+    top: 2597px;
+    left: 150px;
     background-color: #f80000;
     border-radius: 10px;
     text-align: center;
@@ -322,15 +342,14 @@ left: 150px;
 }
 
 .number {
-    
-height: 348px;
-top: 2597px;
-left: 697px;
-
+    padding:30px 167px ;
+    height: 348px;
+   
     border-radius: 10px;
     text-align: center;
     box-shadow: 0px 0px 17px 0px #00000040;
     margin: 0px 20px;
+    align-items: center;
 }
 
 .number-title {
@@ -348,10 +367,11 @@ left: 697px;
     font-weight: 400;
     line-height: 28.18px;
     text-align: center;
-    }
+ 
+}
 
 .adress {
-    
+    padding:30px 39px ;
     height: 348px;
     top: 2597px;
     left: 1243px;
@@ -385,43 +405,51 @@ left: 697px;
 .adress,
 .email {
     display: inline-block;
-    vertical-align: top; 
-     }
-     footer {
-        background-color: #181818;
-        padding-top: 75px;
-        padding-bottom: 75px;
+    vertical-align: top;
+}
+
+footer {
+    background-color: #181818;
+    padding-top: 75px;
+    padding-bottom: 75px;
     text-align: center;
-    
-    }
-    
-    .logo {
-        font-family: "Oswald", sans-serif;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 35.57px;
-      
-        color: #FF993A;
-    }
-    
-    .footer-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .footer-img {
-        width: 100px;
-        height: auto;
-        padding-left: 150px;
-    }
-    
-    .footer-text {
-    
-        font-family: "Inter", sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 24.2px;
-        
-        color: #ffffff;
-    }
+
+}
+
+.footer-logo {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.57px;
+    padding-left: 50px;
+
+    color: #FF993A;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-img {
+    width: 100px;
+    height: auto;
+
+}
+
+.footer-text {
+
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+
+    color: #ffffff;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+}
