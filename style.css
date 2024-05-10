@@ -96,7 +96,7 @@ header {
 
 .description-img {
     margin-left: auto;
-
+margin-right: 403px;
 }
 
 .description-container {
@@ -313,7 +313,7 @@ padding:30px 167px ;
     height: 348px;
     top: 2597px;
     left: 150px;
-    background-color: #f80000;
+    background-color: #ffffff;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0px 0px 17px 0px #00000040;
@@ -325,7 +325,7 @@ padding:30px 167px ;
     font-weight: 700;
     line-height: 43.65px;
     text-align: center;
-    color: #ffffff;
+    color: #ff0000;
 
 
 
@@ -338,7 +338,7 @@ padding:30px 167px ;
     font-weight: 400;
     line-height: 28.18px;
 
-    color: #ffffff;
+    color: #000000;
 }
 
 .number {
@@ -453,3 +453,40 @@ footer {
     display: flex;
     align-items: center;
 }
+.number:hover{
+    background-color: #ed0000;
+    color: white;
+    
+}
+.adress:hover{
+    background-color: #ed0000;
+    color: white;
+    
+}
+.email:hover{
+    background-color: #ed0000;
+    color: white;
+    
+}
+.email-text:hover{
+    
+    color: white;
+    
+}
+.adress-title:hover{
+  
+    color: white;
+    
+}
+.email-title:hover{
+    
+    color: white;
+    
+}
+.number-title:hover{
+    
+    color: white;
+    
+}
+
+
